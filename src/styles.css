@@ -4,5 +4,5 @@
 
 html {
   color-scheme: light dark;
-  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+  @apply bg-gray-50 text-gray-950 dark:bg-gray-950 dark:text-gray-50 transition-all;
 }
