@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getBrowserTheme } from '../utils/getBrowserTheme';
 import type { RootState } from './store';
+import { getBrowserTheme } from '../utils/getBrowserTheme';
 
 export const themes = ['light', 'dark'] as const;
 
@@ -20,6 +20,10 @@ export const themeSlice = createSlice({
   reducers: {
     setTheme: (state, action) => {
       state.theme = action.payload;
+      document.documentElement.classList.toggle(
+        'dark',
+        action.payload === 'dark',
+      );
     },
   },
 });

@@ -15,7 +15,12 @@ const useThemeWatch = () => {
         dispatch(setTheme(browserTheme));
       }
     };
+
     browserMatch.addEventListener('change', handleThemeChange);
+
+    return () => {
+      browserMatch.removeEventListener('change', handleThemeChange);
+    };
   });
 };
 
