@@ -1,4 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { getBrowserTheme } from '../utils/getBrowserTheme';
+import type { RootState } from './store';
 
 export const themes = ['light', 'dark'] as const;
 
@@ -9,7 +11,7 @@ export interface StoreState {
 }
 
 const initialState: StoreState = {
-  theme: 'light',
+  theme: getBrowserTheme(),
 };
 
 export const themeSlice = createSlice({
@@ -22,7 +24,7 @@ export const themeSlice = createSlice({
   },
 });
 
-export const selectTheme = (state: StoreState) => state.theme;
+export const selectTheme = (state: RootState) => state.theme.theme;
 
 export const { setTheme } = themeSlice.actions;
 
