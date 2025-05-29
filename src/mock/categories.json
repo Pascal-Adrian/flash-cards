@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Programing"
+    },
+    {
+        "id": 2,
+        "name": "Math"
+    },
+    {
+        "id": 3,
+        "name": "Science"
+    },
+    {
+        "id": 4,
+        "name": "History"
+    },
+    {
+        "id": 5,
+        "name": "Literature"
+    },
+    {
+        "id": 6,
+        "name": "Languages"
+    }
+]
