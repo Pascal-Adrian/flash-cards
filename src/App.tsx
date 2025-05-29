@@ -3,14 +3,14 @@ import router from './router/router';
 import './styles.css';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import ThemeProvider from './components/ThemeProvider';
+import ThemeWatcher from './components/ThemeWatcher';
 
 function App() {
   return (
     <Provider store={store}>
-      <ThemeProvider>
+      <ThemeWatcher>
         <RouterProvider router={router} />
-      </ThemeProvider>
+      </ThemeWatcher>
     </Provider>
   );
 }
