@@ -1,22 +1,18 @@
 import { TbCardsFilled } from 'react-icons/tb';
 import ThemeButton from './ThemeButton';
-import { Link, useLocation } from 'react-router';
+import { Link, useMatch } from 'react-router';
 
 const Header: React.FC = () => {
-  const location = useLocation();
-
   const navLinks = [
     {
       path: '/',
       label: 'Home',
+      active: useMatch('/'),
     },
     {
-      path: '/explore',
+      path: '/sets',
       label: 'Explore',
-    },
-    {
-      path: '/my-cards',
-      label: 'My Cards',
+      active: useMatch('/sets/*'),
     },
   ];
 
@@ -33,7 +29,7 @@ const Header: React.FC = () => {
           {navLinks.map((link) => (
             <li key={link.path}>
               <Link
-                className={`px-2 pt-3 pb-2 flex items-center justify-center hover:text-gray-950 dark:hover:text-gray-50 ${location.pathname === link.path ? 'text-gray-950 dark:text-gray-50' : 'text-gray-400 dark:text-gray-600'}`}
+                className={`px-2 pt-3 pb-2 flex items-center justify-center hover:text-gray-950 dark:hover:text-gray-50 ${link.active ? 'text-gray-950 dark:text-gray-50' : 'text-gray-400 dark:text-gray-600'}`}
                 to={link.path}
               >
                 {link.label}
