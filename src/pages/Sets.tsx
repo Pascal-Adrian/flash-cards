@@ -18,7 +18,7 @@ const Sets: React.FC = () => {
 
   useEffect(() => {
     const sets = getSets({
-      search,
+      search: search ? search.trim() : undefined,
       category: category ? Number(category) : undefined,
       level: level ? Number(level) : undefined,
     });
@@ -50,7 +50,7 @@ const Sets: React.FC = () => {
 
   return (
     <Page>
-      <div className='flex items-center gap-4 p-4 w-[1200px] mx-auto'>
+      <div className='flex items-center gap-4'>
         <Input
           startIcon={<FiSearch />}
           placeholder='search here...'
@@ -73,13 +73,7 @@ const Sets: React.FC = () => {
           placeholder='All Levels'
         />
       </div>
-      <div className='w-[1200px] mx-auto p-4 grid grid-cols-3 gap-4'>
-        {sets.map((set) => (
-          <SetCard key={set.id} {...set} />
-        ))}
-        {sets.map((set) => (
-          <SetCard key={set.id} {...set} />
-        ))}
+      <div className='mt-4 grid grid-cols-3 gap-4'>
         {sets.map((set) => (
           <SetCard key={set.id} {...set} />
         ))}

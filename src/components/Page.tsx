@@ -4,7 +4,7 @@ const Page: React.FC<React.PropsWithChildren> = ({ children }) => {
   return (
     <div className='min-h-screen'>
       <Header />
-      <main>{children}</main>
+      <main className='max-w-[1200px] mx-auto p-4'>{children}</main>
     </div>
   );
 };

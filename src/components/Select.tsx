@@ -10,7 +10,6 @@ export type SelectOption = {
 export interface SelectProps {
   options: SelectOption[];
   value?: SelectValue;
-  defaultValue?: SelectValue;
   onChange: (value: SelectValue) => void;
   placeholder?: string;
   className?: string;
@@ -19,7 +18,6 @@ export interface SelectProps {
 const Select: React.FC<SelectProps> = ({
   options,
   value,
-  defaultValue,
   onChange,
   placeholder,
   className = '',
@@ -30,7 +28,7 @@ const Select: React.FC<SelectProps> = ({
     >
       <select
         className={`cursor-pointer relative z-10 w-full h-full pl-3 pr-8 py-2 rounded-sm appearance-none focus:outline-0 ${value !== undefined ? 'text-gray-950 dark:text-gray-50' : 'text-gray-400 dark:text-gray-500'} `}
-        value={value || defaultValue || ''}
+        value={value || ''}
         onChange={(e) => onChange(e.target.value as SelectValue)}
       >
         <option value={''}>{placeholder || ''}</option>

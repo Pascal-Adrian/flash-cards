@@ -1,7 +1,8 @@
 import type { RouteObject } from 'react-router';
 import Home from '../pages/Home';
-import Set from '../pages/Set';
+import SetPage from '../pages/SetPage';
 import Sets from '../pages/Sets';
+import MySet from '../pages/MySet';
 
 const routes: RouteObject[] = [
   {
@@ -17,9 +18,13 @@ const routes: RouteObject[] = [
       },
       {
         path: ':setId',
-        element: <Set />,
+        element: <SetPage />,
       },
     ],
+  },
+  {
+    path: '/my-sets/:setId',
+    element: <MySet />,
   },
 ];
 
