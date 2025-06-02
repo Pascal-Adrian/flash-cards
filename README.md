@@ -28,25 +28,30 @@ A simple flash cards app built with React, TypeScript, and Tailwind CSS.
 ## Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/Pascal-Adrian/flash-cards.git 
+   git clone https://github.com/Pascal-Adrian/flash-cards.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
     cd flash-cards
-    ```
+   ```
 
 3. Install dependencies:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 4. Start the development server:
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 5. Open your browser and go to `http://localhost:5173` to view the app.
 
+## Or access the live version [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://Pascal-Adrian.github.io/flash-cards/)
 
