@@ -47,6 +47,19 @@ const Study: React.FC = () => {
     selectCardsClb();
   }, [selectCardsClb]);
 
+  const updateCards = (): Card[] => {
+    if (!set) return [];
+    const setCards = set.cards;
+    const updatedCards = setCards.map((card) => {
+      const setCardIdx = cards.findIndex((c) => c.id === card.id);
+      if (setCardIdx !== -1) {
+        return { ...card, memorized: cards[setCardIdx].memorized };
+      }
+      return card;
+    });
+    return updatedCards;
+  };
+
   const handleButton = (memorized: boolean) => {
     if (!set) return;
     const updatedCards = [...cards];
@@ -55,7 +68,7 @@ const Study: React.FC = () => {
     if (currentCard < cards.length - 1) {
       setCurrentCard(currentCard + 1);
     } else {
-      const updatedSet = { ...set, cards: updatedCards };
+      const updatedSet = { ...set, cards: updateCards() };
       mySets.update(updatedSet);
       navigate(`/my-sets/${set?.id}`);
     }

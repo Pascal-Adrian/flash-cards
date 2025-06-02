@@ -80,7 +80,7 @@
         "last_opened": null
     },
     {
-        "id": 129391298,
+        "id": 12939189,
         "title": "SI Quiz-uri Midterm 1 (1-7)",
         "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
         "level": 3,
@@ -97,201 +97,241 @@
         },
         "cards": [
             {
+                "id": 47832156,
                 "question": "Ce este Internetul Lucrurilor?",
                 "answer": "Conexiunea dispozitivelor de zi cu zi la Internet.",
                 "memorized": false
             },
             {
+                "id": 92845371,
                 "question": "Care este scopul Internetului Lucrurilor?",
                 "answer": "Pentru a crea conexiuni între dispozitive, oameni și date.",
                 "memorized": false
             },
             {
+                "id": 63719482,
                 "question": "Care dintre acestea este un exemplu al internetului lucrurilor?",
                 "answer": "Un vehicul care poate primi actualizări fără fir.",
                 "memorized": false
             },
             {
+                "id": 15926734,
                 "question": "IoT este definit ca _____",
                 "answer": "toate aceste răspunsuri sunt corecte.",
                 "memorized": false
             },
             {
+                "id": 84537296,
                 "question": "Ce înseamnă termenul 'Internetul Lucrurilor'?",
                 "answer": "Obiecte de zi cu zi cu capacități de comunicare pe internet",
                 "memorized": false
             },
             {
+                "id": 71648359,
                 "question": "Care dintre acestea ar fi considerat un dispozitiv IoT?",
                 "answer": "Un termostat activat pentru wifi",
                 "memorized": false
             },
             {
+                "id": 39584127,
                 "question": "Cu cine sau cu ce comunică sau se conectează dispozitivele IoT?",
                 "answer": "Utilizatori și alte dispozitive",
                 "memorized": false
             },
             {
+                "id": 52167348,
                 "question": "În calitate de sistem, IoT reprezintă:",
                 "answer": "Rețea de dispozitive, sisteme distribuite care participă la rezolvarea problemelor",
                 "memorized": false
             },
             {
+                "id": 86394175,
                 "question": "Nu este menționat ca domeniu ale sistemelor incorporate",
                 "answer": "Inginerie Mecanică",
                 "memorized": false
             },
             {
+                "id": 24715863,
                 "question": "Care dintre următoarele NU face parte din arhitectura IoT?",
                 "answer": "Transport layer",
                 "memorized": false
             },
             {
+                "id": 57283941,
                 "question": "Utilizatorul interacționează cu sistemul printr-un set de senzori și actuatori specializați",
                 "answer": "True",
                 "memorized": false
             },
             {
+                "id": 93641758,
                 "question": "Care afirmații NU sunt adevărate:",
                 "answer": "Acțiunile omului și a mașinii reprezintă niște mecanisme care sunt în formă de buclă ce nu interacționează între ele.",
                 "memorized": false
             },
             {
+                "id": 18752634,
                 "question": "Scalarea de tip matrice:",
                 "answer": "Ajută să utilizăm mai puțini pini, Este utilizată pentru construire de tastaturi, Reduce din resurse hardware, Este utilizată la construcția panourilor LED",
                 "memorized": false
             },
             {
+                "id": 42917385,
                 "question": "utilizarea tehnologiei computerului pentru a crea un mediu simulat se referă la:",
                 "answer": "Realitatea virtuală",
                 "memorized": false
             },
             {
+                "id": 76534829,
                 "question": "Librăria STDIO reprezintă o librărie obligatorie pentru interacțiunea cu utilizatorul",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 65148372,
                 "question": "Sistem de operare reprezintă:",
                 "answer": "sistem de gestionare a resurselor unui sistem de calcul",
                 "memorized": false
             },
             {
+                "id": 38792614,
                 "question": "Resurse gestionate de un Sistem de Operare:",
                 "answer": "Comunicare, Memoria sistemului, Periferii, Energie, Timp de Procesare",
                 "memorized": false
             },
             {
+                "id": 94765183,
                 "question": "Sistemele cu un singur fir de execuție pot rula:",
                 "answer": "O singură funcționalitate",
                 "memorized": false
             },
             {
+                "id": 51923847,
                 "question": "Noțiunea de SpinLock se referă la:",
                 "answer": "mecanism de blocare pentru așteptarea disponibilității unui resurs",
                 "memorized": false
             },
             {
+                "id": 27385694,
                 "question": "Recurența unui task secvențial reprezintă:",
                 "answer": "Periodicitatea invocării unui task",
                 "memorized": false
             },
             {
+                "id": 83619475,
                 "question": "Timp real se referă la:",
                 "answer": "Timpul admisibil de răspuns a sistemului",
                 "memorized": false
             },
             {
+                "id": 64752138,
                 "question": "Acronimul RTOS se referă la:",
                 "answer": "Sistem de operare în timp real",
                 "memorized": false
             },
             {
+                "id": 19837426,
                 "question": "Sistemele de operare Preemptive nu permit ca taskurile să fie întrerupte.",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 75294631,
                 "question": "Stări admisibile a taskurilor pentru FreeRTOS pot fi:",
                 "answer": "Blocked, Ready, Running, Suspended",
                 "memorized": false
             },
             {
+                "id": 48571923,
                 "question": "Aplicațiile realizate cu sisteme secvențiale nu pot fi realizate cu FreeRTOS din cauza mecanismelor ce stau la baza Sistemelor de Operare a acestora",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 36492817,
                 "question": "Care dintre expresii sunt veridice pentru senzori?",
                 "answer": "participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului, nu participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului",
                 "memorized": false
             },
             {
+                "id": 91685724,
                 "question": "Care din acestea nu este menționat ca și tip de interacțiune în sisteme IoT",
                 "answer": "Interacțiune cu Energie",
                 "memorized": false
             },
             {
+                "id": 57148362,
                 "question": "Care este rolul unui senzor într-un dispozitiv IoT?",
                 "answer": "Achiziția Informației",
                 "memorized": false
             },
             {
+                "id": 82963475,
                 "question": "De ce este importantă cercetarea și dezvoltarea în domeniul senzorilor?",
                 "answer": "Pentru a alege un senzor care se comportă bine cu actuatorul său, Pentru a alege un senzor care poate îndeplini o mulțime de sarcini diferite, Pentru a alege un senzor care colectează cele mai potrivite date",
                 "memorized": false
             },
             {
+                "id": 24817359,
                 "question": "Funcția componentei de senzor al arhitecturii IoT este _____",
                 "answer": "utilizarea de senzori pentru colectarea datelor cum ar fi temperatura, umiditatea.",
                 "memorized": false
             },
             {
+                "id": 69385142,
                 "question": "Funcția de Conversie lineară în condiționarea semnalului servește la ___",
                 "answer": "Conversie dintr-un domeniu în altul în scop de adaptare semnal.",
                 "memorized": false
             },
             {
+                "id": 45729683,
                 "question": "Funcția de Saturare în condiționarea semnalului servește la ___",
                 "answer": "limitare semnal la valori de minim și maxim",
                 "memorized": false
             },
             {
+                "id": 87152934,
                 "question": "Funcția de Mediere Ponderată în condiționarea semnalului servește la ___",
                 "answer": "Filtrare de \"zgomot uniform\" - \"zgomot alb\"",
                 "memorized": false
             },
             {
+                "id": 52864173,
                 "question": "Funcția de Detectare Mediană în condiționarea semnalului servește la ___",
                 "answer": "Filtrarea zgomotelor impulsionare",
                 "memorized": false
             },
             {
+                "id": 73491826,
                 "question": "Într-un dispozitiv IoT, după ce un senzor comunică cu un controler, ce componentă face schimbarea fizică?",
                 "answer": "Actuator",
                 "memorized": false
             },
             {
+                "id": 16738459,
                 "question": "Un motor DC este un tip de:",
                 "answer": "Actuator electric",
                 "memorized": false
             },
             {
+                "id": 98247531,
                 "question": "Releul este un fel de:",
                 "answer": "Actuator",
                 "memorized": false
             },
             {
+                "id": 34951782,
                 "question": "Care dintre expresii sunt veridice pentru actuatori?",
                 "answer": "participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului, nu participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului",
                 "memorized": false
             },
             {
+                "id": 61527398,
                 "question": "Funcția H-Bridge în controlul motorului continuu este ___",
                 "answer": "Schimbarea direcției motorului de curent continuu",
                 "memorized": false
             },
             {
+                "id": 85693274,
                 "question": "______ este un tip de motor electric controlat digital, care este utilizat atunci când ceva trebuie poziționat foarte precis sau rotit cu un unghi exact.",
                 "answer": "Stepper",
                 "memorized": false
@@ -300,6 +340,7 @@
         "last_opened": null
     },
     {
+        "id": 84324808,
         "title": "SI Quiz-uri Midterm 2 (8-13)",
         "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
         "level": 3,
@@ -316,238 +357,267 @@
         },
         "cards": [
             {
+                "id": 47293851,
                 "question": "Diagnostic reprezintă ___",
                 "answer": "identicarea naturii și a cauzei unui anumit fenomen",
                 "memorized": false
             },
             {
+                "id": 68429137,
                 "question": "Diagnostic de threshold reprezintă ___",
                 "answer": "detectarea trecerii de o valoare de prag",
                 "memorized": false
             },
             {
+                "id": 92785463,
                 "question": "Diagnostic de range reprezintă ___",
                 "answer": "detectarea incadrării într-un interval",
                 "memorized": false
             },
             {
+                "id": 35617294,
                 "question": "Diagnostic de stall in range reprezintă ___",
                 "answer": "detectarea evoluției / ne-evolutiei semnalului",
                 "memorized": false
             },
             {
+                "id": 81045672,
                 "question": "Diagnostic de plausibilitate reprezintă ___",
                 "answer": "compararea semnalulului cu o sursa alternativa",
                 "memorized": false
             },
             {
+                "id": 19386725,
                 "question": "Protecție reprezintă ___",
                 "answer": "protejarea sistemului la detectarea unui anumit fenomen",
                 "memorized": false
             },
             {
+                "id": 56742831,
                 "question": "Protectie prin derating este ___",
                 "answer": "metodă de protecție dinamică a saturației semnalului de iesire, unde valoarea maximă depinde de un alt semnal de sistem",
                 "memorized": false
             },
             {
+                "id": 23859467,
                 "question": "Protecția prin controlul evoluției traiectoriei parametrilor este ___",
                 "answer": "îmbunătățirea comportamentului general al mașinii și reducerea erorii de urmărire a traseului.",
                 "memorized": false
             },
             {
+                "id": 74162539,
                 "question": "Protecția printr-un model de automat nit este ___",
                 "answer": "o metoda de protecție complexa implementata prin tranziții si stări ale sistemului.",
                 "memorized": false
             },
             {
+                "id": 48573926,
                 "question": "Out of Range protectie este ____",
                 "answer": "vericarea valorii de esire daca se incadreaza in intervalul admisibil înaintea aplicarii către destinație",
                 "memorized": false
             },
             {
+                "id": 91238457,
                 "question": "Control Functional reprezintă",
                 "answer": "Activarea unei functii de control",
                 "memorized": false
             },
             {
+                "id": 63749821,
                 "question": "Control in bucă descisă reprezintă:",
                 "answer": "Control fară colectare de feedback",
                 "memorized": false
             },
             {
+                "id": 15627483,
                 "question": "Control On-O reprezintă:",
                 "answer": "un sistem ce activare a actuatorului la comparatia trecerii peste un nivel stabilit",
                 "memorized": false
             },
             {
+                "id": 82395714,
                 "question": "Control On/O cu histereză reprezintă",
                 "answer": "mentinerea parametrului intre 2 valori de min si max.",
                 "memorized": false
             },
             {
+                "id": 39851642,
                 "question": "Control proportional reprezintă",
                 "answer": "Aplicarea unei valori a semnalului pentru actuator proportionale cu diferenta intre valoarea dorita si cea actuala",
                 "memorized": false
             },
             {
+                "id": 76428351,
                 "question": "Control integral reprezinta",
                 "answer": "integrarea diferentei intre valoare dorita si actuala si aplicarea valorii rezultante pentru control inmultita cu un coecient Ki",
                 "memorized": false
             },
             {
+                "id": 54916273,
                 "question": "Control diferential reprezinta",
                 "answer": "Control bazat pe diferentiala evolutie diferentei intre valoriea actuala si cea dorita, valoarea rezultanta aplicata la control inmultita cu un coecient Kd",
                 "memorized": false
             },
             {
+                "id": 27384659,
                 "question": "Un Automat Finit este",
                 "answer": "un mecanism care își schimba stările ca reacție la intrările sistemului si produce ieșiri corespunzătoare",
                 "memorized": false
             },
             {
+                "id": 85639471,
                 "question": "Un Automat nit este denit prin:",
                 "answer": "Număr nit de ieșiri generate, Număr nit de stări, o stare denita ca si inițiala, Funcție de denire a ieșirilor",
                 "memorized": false
             },
             {
+                "id": 42716853,
                 "question": "Un Automat Mealy (imediat) este reprezentat de:",
                 "answer": "stareurmatoare dependenta de starea curenta si intrari, Iesiri dependente de stare si de intrari, schimbarea intrarilor implica impact imediat a iesirilor",
                 "memorized": false
             },
             {
+                "id": 69472185,
                 "question": "Un Automat Moore (cu intarziere) este reprezentat de:",
                 "answer": "Iesiri dependente doar de stare, schimbarea intrarilor nu implica impact imediat a iesirilor, stareurmatoare dependenta de starea curenta si intrari",
                 "memorized": false
             },
             {
+                "id": 31857429,
                 "question": "Cate stari sunt in acest Automat Finit",
                 "answer": "2",
                 "memorized": false
             },
             {
+                "id": 78524361,
                 "question": "Care este starea Initiala?",
                 "answer": "Locked",
                 "memorized": false
             },
             {
+                "id": 16293857,
                 "question": "Ce reprezinta sagetile in acest Automat Finit?",
                 "answer": "tranzitii",
                 "memorized": false
             },
             {
+                "id": 94685372,
                 "question": "Cate intrari are Automatul Finit?",
                 "answer": "2",
                 "memorized": false
             },
             {
+                "id": 52739481,
                 "question": "Pentru a trece de la starea Locked la starea Un-Locked, care trebuie să e intrarea?",
                 "answer": "Coin",
                 "memorized": false
             },
             {
+                "id": 37841625,
                 "question": "Când se aă în starea Locked, ce se întâmplă când intrarea este Push",
                 "answer": "Nu se intampla nimic",
                 "memorized": false
             },
             {
+                "id": 83567241,
                 "question": "Cand Automatul este in starea un-Locked daca intrarea este Push",
                 "answer": "Automatul isi schimba starea in Locked",
                 "memorized": false
             },
             {
+                "id": 26148937,
                 "question": "Logica fuzzy e o forma de:",
                 "answer": "Logica in valori multiple",
                 "memorized": false
             },
             {
+                "id": 71925463,
                 "question": "Unde se foloseste Criteriul de minim?",
                 "answer": "cand se evalueaza o operatie AND",
                 "memorized": false
             },
             {
+                "id": 49372816,
                 "question": "______________ este modul / sunt modurile de a reprezenta incertitudinea.",
                 "answer": "Toate cele mentionate",
                 "memorized": false
             },
             {
+                "id": 65283974,
                 "question": "Prin ce este diferit Controlul cu logica Fuzzy de metodele de control convenționale?",
                 "answer": "prin abordarea DACA ... ATUNCI",
                 "memorized": false
             },
             {
+                "id": 18496752,
                 "question": "Valorile adevărului teoriei tradiționale a mulțimilor sunt _________, iar cea a setului fuzzy sunt ____________.",
                 "answer": "Fie 0 sau 1; între 0 și 1;",
                 "memorized": false
             },
             {
+                "id": 87642193,
                 "question": "Logica fuzzy este o extensie a setului Crisp cu conceptul de Adevăr parțial/nuantat",
                 "answer": "Adevărat",
                 "memorized": false
             },
             {
+                "id": 34159728,
                 "question": "Temperatura camerei este HOT. Aici HOT(se folosește utilizarea variabilei lingvistice) poate reprezentat prin _______",
                 "answer": "un set Fuzzy",
                 "memorized": false
             },
             {
+                "id": 96837421,
                 "question": "Care este secvenţa de paşi de evaluare intr-un sistem de control cu logică fuzzy?",
                 "answer": "Fuzzicare-> Evaluarea regulilor-> Defuzzicare",
                 "memorized": false
             },
             {
+                "id": 52847365,
                 "question": "Printre Motivele utilizării logicii Fuzzy se utilizeaza mai putin :",
                 "answer": "pentru a  folosit ca bază de cunoștințe",
                 "memorized": false
             },
             {
+                "id": 29758613,
                 "question": "______ - traduce limbajul de asamblare de nivel scăzut mnemonic în codul mașinii",
                 "answer": "Asamblor",
                 "memorized": false
             },
             {
+                "id": 73642859,
                 "question": "_____ — traduce codul sursă din limbaje de nivel înalt în cod obiect și apoi în cod mașină",
                 "answer": "Compilator",
                 "memorized": false
             },
             {
+                "id": 41829576,
                 "question": "_____ - translează programul rând cu rând pe măsură ce programul rulează",
                 "answer": "Interpretor",
                 "memorized": false
             },
             {
+                "id": 68375291,
                 "question": "Ce este un MNEMONIC?",
                 "answer": "Un simbol care reprezintă o instrucțiune în codul de asamblare.",
                 "memorized": false
             },
             {
+                "id": 15936427,
                 "question": "Care dintre următoarele NU este un translator de program?",
                 "answer": "Executabil",
                 "memorized": false
             },
             {
+                "id": 84571392,
                 "question": "Este un program de calculator care leagă și combină diferite șiere obiect împreună pentru a crea un șier executabil.",
                 "answer": "Linker",
                 "memorized": false
             },
             {
+                "id": 37294865,
                 "question": "Această fază scanează codul sursă ca un ux de caractere și îl transformă în lexeme semnicative.",
                 "answer": "Analizator lexical",
-                "memorized": false
-            },
-            {
-                "question": "Etapa de compilare care elimină codul redundant și înlocuiește codul inecient.",
-                "answer": "Optimizarea codului",
-                "memorized": false
-            },
-            {
-                "question": "Care dintre următoarele este falsă:",
-                "answer": "Programele COMPILATE sunt mai ușor de depanat.",
-                "memorized": false
-            },
-            {
-                "question": "Care dintre acestea NU este o etapă în procesul de compilare:",
-                "answer": "Generarea codului Sursa",
                 "memorized": false
             }
         ],
