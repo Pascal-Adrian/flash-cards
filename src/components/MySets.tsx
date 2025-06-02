@@ -40,7 +40,7 @@ const MySets: React.FC<MySetsProps> = ({ sets, onDelete }) => {
                     onDelete(set.id);
                   }
                 }}
-                className='p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-900 rounded-lg'
+                className='p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-900 rounded-sm'
               >
                 <div className='h-5 w-5'>
                   <AiOutlineDelete style={{ width: '100%', height: '100%' }} />

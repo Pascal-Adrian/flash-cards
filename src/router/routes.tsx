@@ -5,6 +5,7 @@ import Sets from '../pages/Sets';
 import MySet from '../pages/MySet';
 import EditSet from '../pages/EditSet';
 import CreateSet from '../pages/CreateSet';
+import Study from '../pages/Study';
 
 const routes: RouteObject[] = [
   {
@@ -34,6 +35,10 @@ const routes: RouteObject[] = [
       {
         path: ':setId/edit',
         element: <EditSet />,
+      },
+      {
+        path: ':setId/study',
+        element: <Study />,
       },
       {
         path: 'create',
