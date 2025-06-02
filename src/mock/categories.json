@@ -22,5 +22,9 @@
     {
         "id": 6,
         "name": "Languages"
+    },
+    {
+        "id": 7,
+        "name": "SI"
     }
 ]
