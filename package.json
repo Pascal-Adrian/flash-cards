@@ -2,6 +2,7 @@
   "name": "flash-cards",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Pascal-Adrian.github.io/flash-cards",
   "type": "module",
   "scripts": {
     "dev": "vite",
