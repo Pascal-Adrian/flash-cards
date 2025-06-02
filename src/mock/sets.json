@@ -77,7 +77,226 @@
                 "memorized": false
             }
         ],
-        "memorized": 0,
+        "last_opened": null
+    },
+    {
+        "id": 129391298,
+        "title": "SI Quiz-uri Midterm 1 (1-7)",
+        "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
+        "level": 3,
+        "tags": [
+            {
+                "id": 1,
+                "name": "SI",
+                "color": "blue"
+            }
+        ],
+        "category": {
+            "id": 7,
+            "name": "SI"
+        },
+        "cards": [
+            {
+                "question": "Ce este Internetul Lucrurilor?",
+                "answer": "Conexiunea dispozitivelor de zi cu zi la Internet.",
+                "memorized": false
+            },
+            {
+                "question": "Care este scopul Internetului Lucrurilor?",
+                "answer": "Pentru a crea conexiuni între dispozitive, oameni și date.",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre acestea este un exemplu al internetului lucrurilor?",
+                "answer": "Un vehicul care poate primi actualizări fără fir.",
+                "memorized": false
+            },
+            {
+                "question": "IoT este definit ca _____",
+                "answer": "toate aceste răspunsuri sunt corecte.",
+                "memorized": false
+            },
+            {
+                "question": "Ce înseamnă termenul 'Internetul Lucrurilor'?",
+                "answer": "Obiecte de zi cu zi cu capacități de comunicare pe internet",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre acestea ar fi considerat un dispozitiv IoT?",
+                "answer": "Un termostat activat pentru wifi",
+                "memorized": false
+            },
+            {
+                "question": "Cu cine sau cu ce comunică sau se conectează dispozitivele IoT?",
+                "answer": "Utilizatori și alte dispozitive",
+                "memorized": false
+            },
+            {
+                "question": "În calitate de sistem, IoT reprezintă:",
+                "answer": "Rețea de dispozitive, sisteme distribuite care participă la rezolvarea problemelor",
+                "memorized": false
+            },
+            {
+                "question": "Nu este menționat ca domeniu ale sistemelor incorporate",
+                "answer": "Inginerie Mecanică",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre următoarele NU face parte din arhitectura IoT?",
+                "answer": "Transport layer",
+                "memorized": false
+            },
+            {
+                "question": "Utilizatorul interacționează cu sistemul printr-un set de senzori și actuatori specializați",
+                "answer": "True",
+                "memorized": false
+            },
+            {
+                "question": "Care afirmații NU sunt adevărate:",
+                "answer": "Acțiunile omului și a mașinii reprezintă niște mecanisme care sunt în formă de buclă ce nu interacționează între ele.",
+                "memorized": false
+            },
+            {
+                "question": "Scalarea de tip matrice:",
+                "answer": "Ajută să utilizăm mai puțini pini, Este utilizată pentru construire de tastaturi, Reduce din resurse hardware, Este utilizată la construcția panourilor LED",
+                "memorized": false
+            },
+            {
+                "question": "utilizarea tehnologiei computerului pentru a crea un mediu simulat se referă la:",
+                "answer": "Realitatea virtuală",
+                "memorized": false
+            },
+            {
+                "question": "Librăria STDIO reprezintă o librărie obligatorie pentru interacțiunea cu utilizatorul",
+                "answer": "False",
+                "memorized": false
+            },
+            {
+                "question": "Sistem de operare reprezintă:",
+                "answer": "sistem de gestionare a resurselor unui sistem de calcul",
+                "memorized": false
+            },
+            {
+                "question": "Resurse gestionate de un Sistem de Operare:",
+                "answer": "Comunicare, Memoria sistemului, Periferii, Energie, Timp de Procesare",
+                "memorized": false
+            },
+            {
+                "question": "Sistemele cu un singur fir de execuție pot rula:",
+                "answer": "O singură funcționalitate",
+                "memorized": false
+            },
+            {
+                "question": "Noțiunea de SpinLock se referă la:",
+                "answer": "mecanism de blocare pentru așteptarea disponibilității unui resurs",
+                "memorized": false
+            },
+            {
+                "question": "Recurența unui task secvențial reprezintă:",
+                "answer": "Periodicitatea invocării unui task",
+                "memorized": false
+            },
+            {
+                "question": "Timp real se referă la:",
+                "answer": "Timpul admisibil de răspuns a sistemului",
+                "memorized": false
+            },
+            {
+                "question": "Acronimul RTOS se referă la:",
+                "answer": "Sistem de operare în timp real",
+                "memorized": false
+            },
+            {
+                "question": "Sistemele de operare Preemptive nu permit ca taskurile să fie întrerupte.",
+                "answer": "False",
+                "memorized": false
+            },
+            {
+                "question": "Stări admisibile a taskurilor pentru FreeRTOS pot fi:",
+                "answer": "Blocked, Ready, Running, Suspended",
+                "memorized": false
+            },
+            {
+                "question": "Aplicațiile realizate cu sisteme secvențiale nu pot fi realizate cu FreeRTOS din cauza mecanismelor ce stau la baza Sistemelor de Operare a acestora",
+                "answer": "False",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre expresii sunt veridice pentru senzori?",
+                "answer": "participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului, nu participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului",
+                "memorized": false
+            },
+            {
+                "question": "Care din acestea nu este menționat ca și tip de interacțiune în sisteme IoT",
+                "answer": "Interacțiune cu Energie",
+                "memorized": false
+            },
+            {
+                "question": "Care este rolul unui senzor într-un dispozitiv IoT?",
+                "answer": "Achiziția Informației",
+                "memorized": false
+            },
+            {
+                "question": "De ce este importantă cercetarea și dezvoltarea în domeniul senzorilor?",
+                "answer": "Pentru a alege un senzor care se comportă bine cu actuatorul său, Pentru a alege un senzor care poate îndeplini o mulțime de sarcini diferite, Pentru a alege un senzor care colectează cele mai potrivite date",
+                "memorized": false
+            },
+            {
+                "question": "Funcția componentei de senzor al arhitecturii IoT este _____",
+                "answer": "utilizarea de senzori pentru colectarea datelor cum ar fi temperatura, umiditatea.",
+                "memorized": false
+            },
+            {
+                "question": "Funcția de Conversie lineară în condiționarea semnalului servește la ___",
+                "answer": "Conversie dintr-un domeniu în altul în scop de adaptare semnal.",
+                "memorized": false
+            },
+            {
+                "question": "Funcția de Saturare în condiționarea semnalului servește la ___",
+                "answer": "limitare semnal la valori de minim și maxim",
+                "memorized": false
+            },
+            {
+                "question": "Funcția de Mediere Ponderată în condiționarea semnalului servește la ___",
+                "answer": "Filtrare de \"zgomot uniform\" - \"zgomot alb\"",
+                "memorized": false
+            },
+            {
+                "question": "Funcția de Detectare Mediană în condiționarea semnalului servește la ___",
+                "answer": "Filtrarea zgomotelor impulsionare",
+                "memorized": false
+            },
+            {
+                "question": "Într-un dispozitiv IoT, după ce un senzor comunică cu un controler, ce componentă face schimbarea fizică?",
+                "answer": "Actuator",
+                "memorized": false
+            },
+            {
+                "question": "Un motor DC este un tip de:",
+                "answer": "Actuator electric",
+                "memorized": false
+            },
+            {
+                "question": "Releul este un fel de:",
+                "answer": "Actuator",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre expresii sunt veridice pentru actuatori?",
+                "answer": "participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului, nu participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului",
+                "memorized": false
+            },
+            {
+                "question": "Funcția H-Bridge în controlul motorului continuu este ___",
+                "answer": "Schimbarea direcției motorului de curent continuu",
+                "memorized": false
+            },
+            {
+                "question": "______ este un tip de motor electric controlat digital, care este utilizat atunci când ceva trebuie poziționat foarte precis sau rotit cu un unghi exact.",
+                "answer": "Stepper",
+                "memorized": false
+            }
+        ],
         "last_opened": null
     }
 ]
