@@ -33,15 +33,38 @@ const mySets = {
       return;
     }
 
+    const cards = set.cards.map((card, index) => ({
+      ...card,
+      id: card.id || Math.floor(Math.random() * 1000000) + index,
+    }));
+
     const updatedSet = {
       ...set,
       last_opened: new Date().toISOString(),
+      cards,
     };
 
     sets[index] = updatedSet;
     localStorage.setItem('mySets', JSON.stringify(sets));
 
     return updatedSet;
+  },
+  create: (set: Set) => {
+    const sets = JSON.parse(localStorage.getItem('mySets') || '[]');
+    const newSet = {
+      ...set,
+      id: Math.floor(Math.random() * 1000000),
+      last_opened: new Date().toISOString(),
+      cards: set.cards.map((card, index) => ({
+        ...card,
+        id: card.id || Math.floor(Math.random() * 1000000) + index,
+      })),
+    };
+
+    sets.push(newSet);
+    localStorage.setItem('mySets', JSON.stringify(sets));
+
+    return newSet;
   },
 };
 

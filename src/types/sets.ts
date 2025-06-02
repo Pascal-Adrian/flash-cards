@@ -10,19 +10,19 @@ export type Category = {
 };
 
 export type Card = {
-  id: number;
+  id?: number;
   question: string;
   answer: string;
   memorized: boolean;
 };
 
 export type Set = {
-  id: number;
+  id?: number;
   title: string;
   description: string;
   last_opened: string | null;
   level: number;
-  category: Category;
+  category?: Category;
   tags: Tag[];
   cards: Card[];
 };

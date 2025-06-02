@@ -2,11 +2,12 @@ import { useEffect, useState } from 'react';
 import Page from '../components/Page';
 import { type Card, type Set } from '../types/sets';
 import mySets from '../utils/mySets';
-import { useParams } from 'react-router';
+import { useNavigate, useParams } from 'react-router';
 import { FiEdit3 } from 'react-icons/fi';
 
 const MySet: React.FC = () => {
   const { setId } = useParams();
+  const navigate = useNavigate();
   const [set, setSet] = useState<Set>();
   const [cardLists, setCardLists] = useState<{ [key: string]: Card[] }>({
     all: [],
@@ -44,7 +45,10 @@ const MySet: React.FC = () => {
       <div className='mt-6'>
         <div className='flex items-center justify-between'>
           <h2 className='text-4xl font-bold'>{set?.title}</h2>
-          <button className='cursor-pointer flex items-center gap-2 px-6 py-2 font-medium rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900'>
+          <button
+            className='cursor-pointer flex items-center gap-2 px-6 py-2 font-medium rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900'
+            onClick={() => navigate(`/my-sets/${set?.id}/edit`)}
+          >
             <FiEdit3 style={{ width: '100%', height: '100%' }} />
             Edit
           </button>

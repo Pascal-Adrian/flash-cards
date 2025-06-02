@@ -3,6 +3,8 @@ import Home from '../pages/Home';
 import SetPage from '../pages/SetPage';
 import Sets from '../pages/Sets';
 import MySet from '../pages/MySet';
+import EditSet from '../pages/EditSet';
+import CreateSet from '../pages/CreateSet';
 
 const routes: RouteObject[] = [
   {
@@ -23,8 +25,21 @@ const routes: RouteObject[] = [
     ],
   },
   {
-    path: '/my-sets/:setId',
-    element: <MySet />,
+    path: '/my-sets',
+    children: [
+      {
+        path: ':setId',
+        element: <MySet />,
+      },
+      {
+        path: ':setId/edit',
+        element: <EditSet />,
+      },
+      {
+        path: 'create',
+        element: <CreateSet />,
+      },
+    ],
   },
 ];
 
