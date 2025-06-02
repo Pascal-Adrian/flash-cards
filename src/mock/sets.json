@@ -17,250 +17,70 @@
         },
         "cards": [
             {
-                "id": "47832156",
-                "question": "Ce este Internetul Lucrurilor?",
-                "answer": "Conexiunea dispozitivelor de zi cu zi la Internet.",
+                "id": 1,
+                "question": "What is a variable in JavaScript?",
+                "answer": "A variable is a container for storing data values.",
                 "memorized": false
             },
             {
-                "id": "92845371",
-                "question": "Care este scopul Internetului Lucrurilor?",
-                "answer": "Pentru a crea conexiuni între dispozitive, oameni și date.",
+                "id": 2,
+                "question": "What are the valid ways to declare a variable in JavaScript?",
+                "answer": "var x = 5; let y = 10; const z = 15;",
                 "memorized": false
             },
             {
-                "id": "63719482",
-                "question": "Care dintre acestea este un exemplu al internetului lucrurilor?",
-                "answer": "Un vehicul care poate primi actualizări fără fir.",
+                "id": 3,
+                "question": "When to use the 'var', 'let', and 'const' keywords in JavaScript?",
+                "answer": "'var' is function-scoped, 'let' is block-scoped and can be reassigned, 'const' is block-scoped and cannot be reassigned.",
                 "memorized": false
             },
             {
-                "id": "15926734",
-                "question": "IoT este definit ca _____",
-                "answer": "toate aceste răspunsuri sunt corecte.",
+                "id": 4,
+                "question": "Why is 'var' considered outdated in modern JavaScript?",
+                "answer": "'var' has function scope and can lead to unexpected behavior, while 'let' and 'const' have block scope, making them more predictable.",
                 "memorized": false
             },
             {
-                "id": "84537296",
-                "question": "Ce înseamnă termenul 'Internetul Lucrurilor'?",
-                "answer": "Obiecte de zi cu zi cu capacități de comunicare pe internet",
+                "id": 5,
+                "question": "How to declare a function in JavaScript?",
+                "answer": "function myFunction() { // code here }",
                 "memorized": false
             },
             {
-                "id": "71648359",
-                "question": "Care dintre acestea ar fi considerat un dispozitiv IoT?",
-                "answer": "Un termostat activat pentru wifi",
+                "id": 6,
+                "question": "What are other ways to declare a function in JavaScript?",
+                "answer": "const myFunction = function() { // code here }; or const myFunction = () => { // code here };",
                 "memorized": false
             },
             {
-                "id": "39584127",
-                "question": "Cu cine sau cu ce comunică sau se conectează dispozitivele IoT?",
-                "answer": "Utilizatori și alte dispozitive",
+                "id": 7,
+                "question": "What is the difference between a function declaration and a function expression in JavaScript?",
+                "answer": "A function declaration is hoisted and can be called before its definition, while a function expression is not hoisted and can only be called after its definition.",
                 "memorized": false
             },
             {
-                "id": "52167348",
-                "question": "În calitate de sistem, IoT reprezintă:",
-                "answer": "Rețea de dispozitive, sisteme distribuite care participă la rezolvarea problemelor",
+                "id": 8,
+                "question": "What is the purpose of the 'return' statement in a function?",
+                "answer": "The 'return' statement ends the execution of a function and specifies the value to be returned to the function caller.",
                 "memorized": false
             },
             {
-                "id": "86394175",
-                "question": "Nu este menționat ca domeniu ale sistemelor incorporate",
-                "answer": "Inginerie Mecanică",
+                "id": 9,
+                "question": "How to create an object in JavaScript?",
+                "answer": "const myObject = { key: 'value', anotherKey: 'anotherValue' };",
                 "memorized": false
             },
             {
-                "id": "24715863",
-                "question": "Care dintre următoarele NU face parte din arhitectura IoT?",
-                "answer": "Transport layer",
-                "memorized": false
-            },
-            {
-                "id": "57283941",
-                "question": "Utilizatorul interacționează cu sistemul printr-un set de senzori și actuatori specializați",
-                "answer": "True",
-                "memorized": false
-            },
-            {
-                "id": "93641758",
-                "question": "Care afirmații NU sunt adevărate:",
-                "answer": "Acțiunile omului și a mașinii reprezintă niște mecanisme care sunt în formă de buclă ce nu interacționează între ele.",
-                "memorized": false
-            },
-            {
-                "id": "18752634",
-                "question": "Scalarea de tip matrice:",
-                "answer": "Ajută să utilizăm mai puțini pini, Este utilizată pentru construire de tastaturi, Reduce din resurse hardware, Este utilizată la construcția panourilor LED",
-                "memorized": false
-            },
-            {
-                "id": "42917385",
-                "question": "utilizarea tehnologiei computerului pentru a crea un mediu simulat se referă la:",
-                "answer": "Realitatea virtuală",
-                "memorized": false
-            },
-            {
-                "id": "76534829",
-                "question": "Librăria STDIO reprezintă o librărie obligatorie pentru interacțiunea cu utilizatorul",
-                "answer": "False",
-                "memorized": false
-            },
-            {
-                "id": "65148372",
-                "question": "Sistem de operare reprezintă:",
-                "answer": "sistem de gestionare a resurselor unui sistem de calcul",
-                "memorized": false
-            },
-            {
-                "id": "38792614",
-                "question": "Resurse gestionate de un Sistem de Operare:",
-                "answer": "Comunicare, Memoria sistemului, Periferii, Energie, Timp de Procesare",
-                "memorized": false
-            },
-            {
-                "id": "94765183",
-                "question": "Sistemele cu un singur fir de execuție pot rula:",
-                "answer": "O singură funcționalitate",
-                "memorized": false
-            },
-            {
-                "id": "51923847",
-                "question": "Noțiunea de SpinLock se referă la:",
-                "answer": "mecanism de blocare pentru așteptarea disponibilității unui resurs",
-                "memorized": false
-            },
-            {
-                "id": "27385694",
-                "question": "Recurența unui task secvențial reprezintă:",
-                "answer": "Periodicitatea invocării unui task",
-                "memorized": false
-            },
-            {
-                "id": "83619475",
-                "question": "Timp real se referă la:",
-                "answer": "Timpul admisibil de răspuns a sistemului",
-                "memorized": false
-            },
-            {
-                "id": "64752138",
-                "question": "Acronimul RTOS se referă la:",
-                "answer": "Sistem de operare în timp real",
-                "memorized": false
-            },
-            {
-                "id": "19837426",
-                "question": "Sistemele de operare Preemptive nu permit ca taskurile să fie întrerupte.",
-                "answer": "False",
-                "memorized": false
-            },
-            {
-                "id": "75294631",
-                "question": "Stări admisibile a taskurilor pentru FreeRTOS pot fi:",
-                "answer": "Blocked, Ready, Running, Suspended",
-                "memorized": false
-            },
-            {
-                "id": "48571923",
-                "question": "Aplicațiile realizate cu sisteme secvențiale nu pot fi realizate cu FreeRTOS din cauza mecanismelor ce stau la baza Sistemelor de Operare a acestora",
-                "answer": "False",
-                "memorized": false
-            },
-            {
-                "id": "36492817",
-                "question": "Care dintre expresii sunt veridice pentru senzori?",
-                "answer": "participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului, nu participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului",
-                "memorized": false
-            },
-            {
-                "id": "91685724",
-                "question": "Care din acestea nu este menționat ca și tip de interacțiune în sisteme IoT",
-                "answer": "Interacțiune cu Energie",
-                "memorized": false
-            },
-            {
-                "id": "57148362",
-                "question": "Care este rolul unui senzor într-un dispozitiv IoT?",
-                "answer": "Achiziția Informației",
-                "memorized": false
-            },
-            {
-                "id": "82963475",
-                "question": "De ce este importantă cercetarea și dezvoltarea în domeniul senzorilor?",
-                "answer": "Pentru a alege un senzor care se comportă bine cu actuatorul său, Pentru a alege un senzor care poate îndeplini o mulțime de sarcini diferite, Pentru a alege un senzor care colectează cele mai potrivite date",
-                "memorized": false
-            },
-            {
-                "id": "24817359",
-                "question": "Funcția componentei de senzor al arhitecturii IoT este _____",
-                "answer": "utilizarea de senzori pentru colectarea datelor cum ar fi temperatura, umiditatea.",
-                "memorized": false
-            },
-            {
-                "id": "69385142",
-                "question": "Funcția de Conversie lineară în condiționarea semnalului servește la ___",
-                "answer": "Conversie dintr-un domeniu în altul în scop de adaptare semnal.",
-                "memorized": false
-            },
-            {
-                "id": "45729683",
-                "question": "Funcția de Saturare în condiționarea semnalului servește la ___",
-                "answer": "limitare semnal la valori de minim și maxim",
-                "memorized": false
-            },
-            {
-                "id": "87152934",
-                "question": "Funcția de Mediere Ponderată în condiționarea semnalului servește la ___",
-                "answer": "Filtrare de \"zgomot uniform\" - \"zgomot alb\"",
-                "memorized": false
-            },
-            {
-                "id": "52864173",
-                "question": "Funcția de Detectare Mediană în condiționarea semnalului servește la ___",
-                "answer": "Filtrarea zgomotelor impulsionare",
-                "memorized": false
-            },
-            {
-                "id": "73491826",
-                "question": "Într-un dispozitiv IoT, după ce un senzor comunică cu un controler, ce componentă face schimbarea fizică?",
-                "answer": "Actuator",
-                "memorized": false
-            },
-            {
-                "id": "16738459",
-                "question": "Un motor DC este un tip de:",
-                "answer": "Actuator electric",
-                "memorized": false
-            },
-            {
-                "id": "98247531",
-                "question": "Releul este un fel de:",
-                "answer": "Actuator",
-                "memorized": false
-            },
-            {
-                "id": "34951782",
-                "question": "Care dintre expresii sunt veridice pentru actuatori?",
-                "answer": "participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului, nu participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului",
-                "memorized": false
-            },
-            {
-                "id": "61527398",
-                "question": "Funcția H-Bridge în controlul motorului continuu este ___",
-                "answer": "Schimbarea direcției motorului de curent continuu",
-                "memorized": false
-            },
-            {
-                "id": "85693274",
-                "question": "______ este un tip de motor electric controlat digital, care este utilizat atunci când ceva trebuie poziționat foarte precis sau rotit cu un unghi exact.",
-                "answer": "Stepper",
+                "id": 10,
+                "question": "How to access properties of an object in JavaScript?",
+                "answer": "Using dot notation (myObject.key) or bracket notation (myObject['key']).",
                 "memorized": false
             }
         ],
         "last_opened": null
     },
     {
-        "id": 129391298,
+        "id": 12939189,
         "title": "SI Quiz-uri Midterm 1 (1-7)",
         "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
         "level": 3,
@@ -277,201 +97,241 @@
         },
         "cards": [
             {
+                "id": 47832156,
                 "question": "Ce este Internetul Lucrurilor?",
                 "answer": "Conexiunea dispozitivelor de zi cu zi la Internet.",
                 "memorized": false
             },
             {
+                "id": 92845371,
                 "question": "Care este scopul Internetului Lucrurilor?",
                 "answer": "Pentru a crea conexiuni între dispozitive, oameni și date.",
                 "memorized": false
             },
             {
+                "id": 63719482,
                 "question": "Care dintre acestea este un exemplu al internetului lucrurilor?",
                 "answer": "Un vehicul care poate primi actualizări fără fir.",
                 "memorized": false
             },
             {
+                "id": 15926734,
                 "question": "IoT este definit ca _____",
                 "answer": "toate aceste răspunsuri sunt corecte.",
                 "memorized": false
             },
             {
+                "id": 84537296,
                 "question": "Ce înseamnă termenul 'Internetul Lucrurilor'?",
                 "answer": "Obiecte de zi cu zi cu capacități de comunicare pe internet",
                 "memorized": false
             },
             {
+                "id": 71648359,
                 "question": "Care dintre acestea ar fi considerat un dispozitiv IoT?",
                 "answer": "Un termostat activat pentru wifi",
                 "memorized": false
             },
             {
+                "id": 39584127,
                 "question": "Cu cine sau cu ce comunică sau se conectează dispozitivele IoT?",
                 "answer": "Utilizatori și alte dispozitive",
                 "memorized": false
             },
             {
+                "id": 52167348,
                 "question": "În calitate de sistem, IoT reprezintă:",
                 "answer": "Rețea de dispozitive, sisteme distribuite care participă la rezolvarea problemelor",
                 "memorized": false
             },
             {
+                "id": 86394175,
                 "question": "Nu este menționat ca domeniu ale sistemelor incorporate",
                 "answer": "Inginerie Mecanică",
                 "memorized": false
             },
             {
+                "id": 24715863,
                 "question": "Care dintre următoarele NU face parte din arhitectura IoT?",
                 "answer": "Transport layer",
                 "memorized": false
             },
             {
+                "id": 57283941,
                 "question": "Utilizatorul interacționează cu sistemul printr-un set de senzori și actuatori specializați",
                 "answer": "True",
                 "memorized": false
             },
             {
+                "id": 93641758,
                 "question": "Care afirmații NU sunt adevărate:",
                 "answer": "Acțiunile omului și a mașinii reprezintă niște mecanisme care sunt în formă de buclă ce nu interacționează între ele.",
                 "memorized": false
             },
             {
+                "id": 18752634,
                 "question": "Scalarea de tip matrice:",
                 "answer": "Ajută să utilizăm mai puțini pini, Este utilizată pentru construire de tastaturi, Reduce din resurse hardware, Este utilizată la construcția panourilor LED",
                 "memorized": false
             },
             {
+                "id": 42917385,
                 "question": "utilizarea tehnologiei computerului pentru a crea un mediu simulat se referă la:",
                 "answer": "Realitatea virtuală",
                 "memorized": false
             },
             {
+                "id": 76534829,
                 "question": "Librăria STDIO reprezintă o librărie obligatorie pentru interacțiunea cu utilizatorul",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 65148372,
                 "question": "Sistem de operare reprezintă:",
                 "answer": "sistem de gestionare a resurselor unui sistem de calcul",
                 "memorized": false
             },
             {
+                "id": 38792614,
                 "question": "Resurse gestionate de un Sistem de Operare:",
                 "answer": "Comunicare, Memoria sistemului, Periferii, Energie, Timp de Procesare",
                 "memorized": false
             },
             {
+                "id": 94765183,
                 "question": "Sistemele cu un singur fir de execuție pot rula:",
                 "answer": "O singură funcționalitate",
                 "memorized": false
             },
             {
+                "id": 51923847,
                 "question": "Noțiunea de SpinLock se referă la:",
                 "answer": "mecanism de blocare pentru așteptarea disponibilității unui resurs",
                 "memorized": false
             },
             {
+                "id": 27385694,
                 "question": "Recurența unui task secvențial reprezintă:",
                 "answer": "Periodicitatea invocării unui task",
                 "memorized": false
             },
             {
+                "id": 83619475,
                 "question": "Timp real se referă la:",
                 "answer": "Timpul admisibil de răspuns a sistemului",
                 "memorized": false
             },
             {
+                "id": 64752138,
                 "question": "Acronimul RTOS se referă la:",
                 "answer": "Sistem de operare în timp real",
                 "memorized": false
             },
             {
+                "id": 19837426,
                 "question": "Sistemele de operare Preemptive nu permit ca taskurile să fie întrerupte.",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 75294631,
                 "question": "Stări admisibile a taskurilor pentru FreeRTOS pot fi:",
                 "answer": "Blocked, Ready, Running, Suspended",
                 "memorized": false
             },
             {
+                "id": 48571923,
                 "question": "Aplicațiile realizate cu sisteme secvențiale nu pot fi realizate cu FreeRTOS din cauza mecanismelor ce stau la baza Sistemelor de Operare a acestora",
                 "answer": "False",
                 "memorized": false
             },
             {
+                "id": 36492817,
                 "question": "Care dintre expresii sunt veridice pentru senzori?",
                 "answer": "participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului, nu participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului",
                 "memorized": false
             },
             {
+                "id": 91685724,
                 "question": "Care din acestea nu este menționat ca și tip de interacțiune în sisteme IoT",
                 "answer": "Interacțiune cu Energie",
                 "memorized": false
             },
             {
+                "id": 57148362,
                 "question": "Care este rolul unui senzor într-un dispozitiv IoT?",
                 "answer": "Achiziția Informației",
                 "memorized": false
             },
             {
+                "id": 82963475,
                 "question": "De ce este importantă cercetarea și dezvoltarea în domeniul senzorilor?",
                 "answer": "Pentru a alege un senzor care se comportă bine cu actuatorul său, Pentru a alege un senzor care poate îndeplini o mulțime de sarcini diferite, Pentru a alege un senzor care colectează cele mai potrivite date",
                 "memorized": false
             },
             {
+                "id": 24817359,
                 "question": "Funcția componentei de senzor al arhitecturii IoT este _____",
                 "answer": "utilizarea de senzori pentru colectarea datelor cum ar fi temperatura, umiditatea.",
                 "memorized": false
             },
             {
+                "id": 69385142,
                 "question": "Funcția de Conversie lineară în condiționarea semnalului servește la ___",
                 "answer": "Conversie dintr-un domeniu în altul în scop de adaptare semnal.",
                 "memorized": false
             },
             {
+                "id": 45729683,
                 "question": "Funcția de Saturare în condiționarea semnalului servește la ___",
                 "answer": "limitare semnal la valori de minim și maxim",
                 "memorized": false
             },
             {
+                "id": 87152934,
                 "question": "Funcția de Mediere Ponderată în condiționarea semnalului servește la ___",
                 "answer": "Filtrare de \"zgomot uniform\" - \"zgomot alb\"",
                 "memorized": false
             },
             {
+                "id": 52864173,
                 "question": "Funcția de Detectare Mediană în condiționarea semnalului servește la ___",
                 "answer": "Filtrarea zgomotelor impulsionare",
                 "memorized": false
             },
             {
+                "id": 73491826,
                 "question": "Într-un dispozitiv IoT, după ce un senzor comunică cu un controler, ce componentă face schimbarea fizică?",
                 "answer": "Actuator",
                 "memorized": false
             },
             {
+                "id": 16738459,
                 "question": "Un motor DC este un tip de:",
                 "answer": "Actuator electric",
                 "memorized": false
             },
             {
+                "id": 98247531,
                 "question": "Releul este un fel de:",
                 "answer": "Actuator",
                 "memorized": false
             },
             {
+                "id": 34951782,
                 "question": "Care dintre expresii sunt veridice pentru actuatori?",
                 "answer": "participă la transformarea unui semnal din mediul intern într-un semnal exterior al sistemului, nu participă la transformarea unui semnal din mediul exterior într-un semnal intern al sistemului",
                 "memorized": false
             },
             {
+                "id": 61527398,
                 "question": "Funcția H-Bridge în controlul motorului continuu este ___",
                 "answer": "Schimbarea direcției motorului de curent continuu",
                 "memorized": false
             },
             {
+                "id": 85693274,
                 "question": "______ este un tip de motor electric controlat digital, care este utilizat atunci când ceva trebuie poziționat foarte precis sau rotit cu un unghi exact.",
                 "answer": "Stepper",
                 "memorized": false
@@ -480,6 +340,7 @@
         "last_opened": null
     },
     {
+        "id": 84324808,
         "title": "SI Quiz-uri Midterm 2 (8-13)",
         "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
         "level": 3,
