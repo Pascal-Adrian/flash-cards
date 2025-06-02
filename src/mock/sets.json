@@ -298,5 +298,259 @@
             }
         ],
         "last_opened": null
+    },
+    {
+        "title": "SI Quiz-uri Midterm 2 (8-13)",
+        "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
+        "level": 3,
+        "tags": [
+            {
+                "id": 1,
+                "name": "SI",
+                "color": "blue"
+            }
+        ],
+        "category": {
+            "id": 7,
+            "name": "SI"
+        },
+        "cards": [
+            {
+                "question": "Diagnostic reprezintă ___",
+                "answer": "identicarea naturii și a cauzei unui anumit fenomen",
+                "memorized": false
+            },
+            {
+                "question": "Diagnostic de threshold reprezintă ___",
+                "answer": "detectarea trecerii de o valoare de prag",
+                "memorized": false
+            },
+            {
+                "question": "Diagnostic de range reprezintă ___",
+                "answer": "detectarea incadrării într-un interval",
+                "memorized": false
+            },
+            {
+                "question": "Diagnostic de stall in range reprezintă ___",
+                "answer": "detectarea evoluției / ne-evolutiei semnalului",
+                "memorized": false
+            },
+            {
+                "question": "Diagnostic de plausibilitate reprezintă ___",
+                "answer": "compararea semnalulului cu o sursa alternativa",
+                "memorized": false
+            },
+            {
+                "question": "Protecție reprezintă ___",
+                "answer": "protejarea sistemului la detectarea unui anumit fenomen",
+                "memorized": false
+            },
+            {
+                "question": "Protectie prin derating este ___",
+                "answer": "metodă de protecție dinamică a saturației semnalului de iesire, unde valoarea maximă depinde de un alt semnal de sistem",
+                "memorized": false
+            },
+            {
+                "question": "Protecția prin controlul evoluției traiectoriei parametrilor este ___",
+                "answer": "îmbunătățirea comportamentului general al mașinii și reducerea erorii de urmărire a traseului.",
+                "memorized": false
+            },
+            {
+                "question": "Protecția printr-un model de automat nit este ___",
+                "answer": "o metoda de protecție complexa implementata prin tranziții si stări ale sistemului.",
+                "memorized": false
+            },
+            {
+                "question": "Out of Range protectie este ____",
+                "answer": "vericarea valorii de esire daca se incadreaza in intervalul admisibil înaintea aplicarii către destinație",
+                "memorized": false
+            },
+            {
+                "question": "Control Functional reprezintă",
+                "answer": "Activarea unei functii de control",
+                "memorized": false
+            },
+            {
+                "question": "Control in bucă descisă reprezintă:",
+                "answer": "Control fară colectare de feedback",
+                "memorized": false
+            },
+            {
+                "question": "Control On-O reprezintă:",
+                "answer": "un sistem ce activare a actuatorului la comparatia trecerii peste un nivel stabilit",
+                "memorized": false
+            },
+            {
+                "question": "Control On/O cu histereză reprezintă",
+                "answer": "mentinerea parametrului intre 2 valori de min si max.",
+                "memorized": false
+            },
+            {
+                "question": "Control proportional reprezintă",
+                "answer": "Aplicarea unei valori a semnalului pentru actuator proportionale cu diferenta intre valoarea dorita si cea actuala",
+                "memorized": false
+            },
+            {
+                "question": "Control integral reprezinta",
+                "answer": "integrarea diferentei intre valoare dorita si actuala si aplicarea valorii rezultante pentru control inmultita cu un coecient Ki",
+                "memorized": false
+            },
+            {
+                "question": "Control diferential reprezinta",
+                "answer": "Control bazat pe diferentiala evolutie diferentei intre valoriea actuala si cea dorita, valoarea rezultanta aplicata la control inmultita cu un coecient Kd",
+                "memorized": false
+            },
+            {
+                "question": "Un Automat Finit este",
+                "answer": "un mecanism care își schimba stările ca reacție la intrările sistemului si produce ieșiri corespunzătoare",
+                "memorized": false
+            },
+            {
+                "question": "Un Automat nit este denit prin:",
+                "answer": "Număr nit de ieșiri generate, Număr nit de stări, o stare denita ca si inițiala, Funcție de denire a ieșirilor",
+                "memorized": false
+            },
+            {
+                "question": "Un Automat Mealy (imediat) este reprezentat de:",
+                "answer": "stareurmatoare dependenta de starea curenta si intrari, Iesiri dependente de stare si de intrari, schimbarea intrarilor implica impact imediat a iesirilor",
+                "memorized": false
+            },
+            {
+                "question": "Un Automat Moore (cu intarziere) este reprezentat de:",
+                "answer": "Iesiri dependente doar de stare, schimbarea intrarilor nu implica impact imediat a iesirilor, stareurmatoare dependenta de starea curenta si intrari",
+                "memorized": false
+            },
+            {
+                "question": "Cate stari sunt in acest Automat Finit",
+                "answer": "2",
+                "memorized": false
+            },
+            {
+                "question": "Care este starea Initiala?",
+                "answer": "Locked",
+                "memorized": false
+            },
+            {
+                "question": "Ce reprezinta sagetile in acest Automat Finit?",
+                "answer": "tranzitii",
+                "memorized": false
+            },
+            {
+                "question": "Cate intrari are Automatul Finit?",
+                "answer": "2",
+                "memorized": false
+            },
+            {
+                "question": "Pentru a trece de la starea Locked la starea Un-Locked, care trebuie să e intrarea?",
+                "answer": "Coin",
+                "memorized": false
+            },
+            {
+                "question": "Când se aă în starea Locked, ce se întâmplă când intrarea este Push",
+                "answer": "Nu se intampla nimic",
+                "memorized": false
+            },
+            {
+                "question": "Cand Automatul este in starea un-Locked daca intrarea este Push",
+                "answer": "Automatul isi schimba starea in Locked",
+                "memorized": false
+            },
+            {
+                "question": "Logica fuzzy e o forma de:",
+                "answer": "Logica in valori multiple",
+                "memorized": false
+            },
+            {
+                "question": "Unde se foloseste Criteriul de minim?",
+                "answer": "cand se evalueaza o operatie AND",
+                "memorized": false
+            },
+            {
+                "question": "______________ este modul / sunt modurile de a reprezenta incertitudinea.",
+                "answer": "Toate cele mentionate",
+                "memorized": false
+            },
+            {
+                "question": "Prin ce este diferit Controlul cu logica Fuzzy de metodele de control convenționale?",
+                "answer": "prin abordarea DACA ... ATUNCI",
+                "memorized": false
+            },
+            {
+                "question": "Valorile adevărului teoriei tradiționale a mulțimilor sunt _________, iar cea a setului fuzzy sunt ____________.",
+                "answer": "Fie 0 sau 1; între 0 și 1;",
+                "memorized": false
+            },
+            {
+                "question": "Logica fuzzy este o extensie a setului Crisp cu conceptul de Adevăr parțial/nuantat",
+                "answer": "Adevărat",
+                "memorized": false
+            },
+            {
+                "question": "Temperatura camerei este HOT. Aici HOT(se folosește utilizarea variabilei lingvistice) poate reprezentat prin _______",
+                "answer": "un set Fuzzy",
+                "memorized": false
+            },
+            {
+                "question": "Care este secvenţa de paşi de evaluare intr-un sistem de control cu logică fuzzy?",
+                "answer": "Fuzzicare-> Evaluarea regulilor-> Defuzzicare",
+                "memorized": false
+            },
+            {
+                "question": "Printre Motivele utilizării logicii Fuzzy se utilizeaza mai putin :",
+                "answer": "pentru a  folosit ca bază de cunoștințe",
+                "memorized": false
+            },
+            {
+                "question": "______ - traduce limbajul de asamblare de nivel scăzut mnemonic în codul mașinii",
+                "answer": "Asamblor",
+                "memorized": false
+            },
+            {
+                "question": "_____ — traduce codul sursă din limbaje de nivel înalt în cod obiect și apoi în cod mașină",
+                "answer": "Compilator",
+                "memorized": false
+            },
+            {
+                "question": "_____ - translează programul rând cu rând pe măsură ce programul rulează",
+                "answer": "Interpretor",
+                "memorized": false
+            },
+            {
+                "question": "Ce este un MNEMONIC?",
+                "answer": "Un simbol care reprezintă o instrucțiune în codul de asamblare.",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre următoarele NU este un translator de program?",
+                "answer": "Executabil",
+                "memorized": false
+            },
+            {
+                "question": "Este un program de calculator care leagă și combină diferite șiere obiect împreună pentru a crea un șier executabil.",
+                "answer": "Linker",
+                "memorized": false
+            },
+            {
+                "question": "Această fază scanează codul sursă ca un ux de caractere și îl transformă în lexeme semnicative.",
+                "answer": "Analizator lexical",
+                "memorized": false
+            },
+            {
+                "question": "Etapa de compilare care elimină codul redundant și înlocuiește codul inecient.",
+                "answer": "Optimizarea codului",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre următoarele este falsă:",
+                "answer": "Programele COMPILATE sunt mai ușor de depanat.",
+                "memorized": false
+            },
+            {
+                "question": "Care dintre acestea NU este o etapă în procesul de compilare:",
+                "answer": "Generarea codului Sursa",
+                "memorized": false
+            }
+        ],
+        "last_opened": null
     }
 ]
