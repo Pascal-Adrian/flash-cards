@@ -1,102 +1,188 @@
-[
-    {
-        "id": 1,
-        "title": "JavaScript Basics - Set 1",
-        "description": "Learn the fundamentals of JavaScript, including variables, data types, and control structures.",
-        "level": 0,
-        "tags": [
-            {
-                "id": 1,
-                "name": "JavaScript",
-                "color": "yellow"
-            }
-        ],
-        "category": {
-            "id": 1,
-            "name": "Programming"
-        },
-        "cards": [
-            {
-                "id": 1,
-                "question": "What is a variable in JavaScript?",
-                "answer": "A variable is a container for storing data values.",
-                "memorized": false
-            },
-            {
-                "id": 2,
-                "question": "What are the valid ways to declare a variable in JavaScript?",
-                "answer": "var x = 5; let y = 10; const z = 15;",
-                "memorized": false
-            },
-            {
-                "id": 3,
-                "question": "When to use the 'var', 'let', and 'const' keywords in JavaScript?",
-                "answer": "'var' is function-scoped, 'let' is block-scoped and can be reassigned, 'const' is block-scoped and cannot be reassigned.",
-                "memorized": false
-            },
-            {
-                "id": 4,
-                "question": "Why is 'var' considered outdated in modern JavaScript?",
-                "answer": "'var' has function scope and can lead to unexpected behavior, while 'let' and 'const' have block scope, making them more predictable.",
-                "memorized": false
-            },
-            {
-                "id": 5,
-                "question": "How to declare a function in JavaScript?",
-                "answer": "function myFunction() { // code here }",
-                "memorized": false
-            },
-            {
-                "id": 6,
-                "question": "What are other ways to declare a function in JavaScript?",
-                "answer": "const myFunction = function() { // code here }; or const myFunction = () => { // code here };",
-                "memorized": false
-            },
-            {
-                "id": 7,
-                "question": "What is the difference between a function declaration and a function expression in JavaScript?",
-                "answer": "A function declaration is hoisted and can be called before its definition, while a function expression is not hoisted and can only be called after its definition.",
-                "memorized": false
-            },
-            {
-                "id": 8,
-                "question": "What is the purpose of the 'return' statement in a function?",
-                "answer": "The 'return' statement ends the execution of a function and specifies the value to be returned to the function caller.",
-                "memorized": false
-            },
-            {
-                "id": 9,
-                "question": "How to create an object in JavaScript?",
-                "answer": "const myObject = { key: 'value', anotherKey: 'anotherValue' };",
-                "memorized": false
-            },
-            {
-                "id": 10,
-                "question": "How to access properties of an object in JavaScript?",
-                "answer": "Using dot notation (myObject.key) or bracket notation (myObject['key']).",
-                "memorized": false
-            }
-        ],
-        "last_opened": "2025-06-01T13:46:13.152Z"
+{
+    "title": "SI Quiz-uri Midterm 2 (8-13)",
+    "description": "Quiz-uri pentru examenul de mijloc de semestru la Sistemele Incorporate.",
+    "level": 3,
+    "tags": [],
+    "category": {
+        "id": 7,
+        "name": "SI"
     },
-    {
-        "title": "sknsad",
-        "description": "dsasds",
-        "last_opened": "2025-06-01T13:55:52.246Z",
-        "level": "1",
-        "category": {
-            "id": 1,
-            "name": "Programing"
+    "cards": [
+        {
+            "question": "Diagnostic reprezintă ___",
+            "answer": "identicarea naturii și a cauzei unui anumit fenomen"
         },
-        "tags": [],
-        "cards": [
-            {
-                "question": "ndansksa",
-                "answer": "ndskasndk",
-                "memorized": false,
-                "id": 779110
-            }
-        ],
-        "id": 883359
-    }
-]
+        {
+            "question": "Diagnostic de threshold reprezintă ___",
+            "answer": "detectarea trecerii de o valoare de prag"
+        },
+        {
+            "question": "Diagnostic de range reprezintă ___",
+            "answer": "detectarea incadrării într-un interval"
+        },
+        {
+            "question": "Diagnostic de stall in range reprezintă ___",
+            "answer": "detectarea evoluției / ne-evolutiei semnalului"
+        },
+        {
+            "question": "Diagnostic de plausibilitate reprezintă ___",
+            "answer": "compararea semnalulului cu o sursa alternativa"
+        },
+        {
+            "question": "Protecție reprezintă ___",
+            "answer": "protejarea sistemului la detectarea unui anumit fenomen"
+        },
+        {
+            "question": "Protectie prin derating este ___",
+            "answer": "metodă de protecție dinamică a saturației semnalului de iesire, unde valoarea maximă depinde de un alt semnal de sistem"
+        },
+        {
+            "question": "Protecția prin controlul evoluției traiectoriei parametrilor este ___",
+            "answer": "îmbunătățirea comportamentului general al mașinii și reducerea erorii de urmărire a traseului."
+        },
+        {
+            "question": "Protecția printr-un model de automat nit este ___",
+            "answer": "o metoda de protecție complexa implementata prin tranziții si stări ale sistemului."
+        },
+        {
+            "question": "Out of Range protectie este ____",
+            "answer": "vericarea valorii de esire daca se incadreaza in intervalul admisibil înaintea aplicarii către destinație"
+        },
+        {
+            "question": "Control Functional reprezintă",
+            "answer": "Activarea unei functii de control"
+        },
+        {
+            "question": "Control in bucă descisă reprezintă:",
+            "answer": "Control fară colectare de feedback"
+        },
+        {
+            "question": "Control On-O reprezintă:",
+            "answer": "un sistem ce activare a actuatorului la comparatia trecerii peste un nivel stabilit"
+        },
+        {
+            "question": "Control On/O cu histereză reprezintă",
+            "answer": "mentinerea parametrului intre 2 valori de min si max."
+        },
+        {
+            "question": "Control proportional reprezintă",
+            "answer": "Aplicarea unei valori a semnalului pentru actuator proportionale cu diferenta intre valoarea dorita si cea actuala"
+        },
+        {
+            "question": "Control integral reprezinta",
+            "answer": "integrarea diferentei intre valoare dorita si actuala si aplicarea valorii rezultante pentru control inmultita cu un coecient Ki"
+        },
+        {
+            "question": "Control diferential reprezinta",
+            "answer": "Control bazat pe diferentiala evolutie diferentei intre valoriea actuala si cea dorita, valoarea rezultanta aplicata la control inmultita cu un coecient Kd"
+        },
+        {
+            "question": "Un Automat Finit este",
+            "answer": "un mecanism care își schimba stările ca reacție la intrările sistemului si produce ieșiri corespunzătoare"
+        },
+        {
+            "question": "Un Automat nit este denit prin:",
+            "answer": "Număr nit de ieșiri generate, Număr nit de stări, o stare denita ca si inițiala, Funcție de denire a ieșirilor"
+        },
+        {
+            "question": "Un Automat Mealy (imediat) este reprezentat de:",
+            "answer": "stareurmatoare dependenta de starea curenta si intrari, Iesiri dependente de stare si de intrari, schimbarea intrarilor implica impact imediat a iesirilor"
+        },
+        {
+            "question": "Un Automat Moore (cu intarziere) este reprezentat de:",
+            "answer": "Iesiri dependente doar de stare, schimbarea intrarilor nu implica impact imediat a iesirilor, stareurmatoare dependenta de starea curenta si intrari"
+        },
+        {
+            "question": "Cate stari sunt in acest Automat Finit",
+            "answer": "2"
+        },
+        {
+            "question": "Care este starea Initiala?",
+            "answer": "Locked"
+        },
+        {
+            "question": "Ce reprezinta sagetile in acest Automat Finit?",
+            "answer": "tranzitii"
+        },
+        {
+            "question": "Cate intrari are Automatul Finit?",
+            "answer": "2"
+        },
+        {
+            "question": "Pentru a trece de la starea Locked la starea Un-Locked, care trebuie să e intrarea?",
+            "answer": "Coin"
+        },
+        {
+            "question": "Când se aă în starea Locked, ce se întâmplă când intrarea este Push",
+            "answer": "Nu se intampla nimic"
+        },
+        {
+            "question": "Cand Automatul este in starea un-Locked daca intrarea este Push",
+            "answer": "Automatul isi schimba starea in Locked"
+        },
+        {
+            "question": "Logica fuzzy e o forma de:",
+            "answer": "Logica in valori multiple"
+        },
+        {
+            "question": "Unde se foloseste Criteriul de minim?",
+            "answer": "cand se evalueaza o operatie AND"
+        },
+        {
+            "question": "______________ este modul / sunt modurile de a reprezenta incertitudinea.",
+            "answer": "Toate cele mentionate"
+        },
+        {
+            "question": "Prin ce este diferit Controlul cu logica Fuzzy de metodele de control convenționale?",
+            "answer": "prin abordarea DACA ... ATUNCI"
+        },
+        {
+            "question": "Valorile adevărului teoriei tradiționale a mulțimilor sunt _________, iar cea a setului fuzzy sunt ____________.",
+            "answer": "Fie 0 sau 1; între 0 și 1;"
+        },
+        {
+            "question": "Logica fuzzy este o extensie a setului Crisp cu conceptul de Adevăr parțial/nuantat",
+            "answer": "Adevărat"
+        },
+        {
+            "question": "Temperatura camerei este HOT. Aici HOT(se folosește utilizarea variabilei lingvistice) poate reprezentat prin _______",
+            "answer": "un set Fuzzy"
+        },
+        {
+            "question": "Care este secvenţa de paşi de evaluare intr-un sistem de control cu logică fuzzy?",
+            "answer": "Fuzzicare-> Evaluarea regulilor-> Defuzzicare"
+        },
+        {
+            "question": "Printre Motivele utilizării logicii Fuzzy se utilizeaza mai putin :",
+            "answer": "pentru a  folosit ca bază de cunoștințe"
+        },
+        {
+            "question": "______ - traduce limbajul de asamblare de nivel scăzut mnemonic în codul mașinii",
+            "answer": "Asamblor"
+        },
+        {
+            "question": "_____ — traduce codul sursă din limbaje de nivel înalt în cod obiect și apoi în cod mașină",
+            "answer": "Compilator"
+        },
+        {
+            "question": "_____ - translează programul rând cu rând pe măsură ce programul rulează",
+            "answer": "Interpretor"
+        },
+        {
+            "question": "Ce este un MNEMONIC?",
+            "answer": "Un simbol care reprezintă o instrucțiune în codul de asamblare."
+        },
+        {
+            "question": "Care dintre următoarele NU este un translator de program?",
+            "answer": "Executabil"
+        },
+        {
+            "question": "Este un program de calculator care leagă și combină diferite șiere obiect împreună pentru a crea un șier executabil.",
+            "answer": "Linker"
+        },
+        {
+            "question": "Această fază scanează codul sursă ca un ux de caractere și îl transformă în lexeme semnicative.",
+            "answer": "Analizator lexical"
+        }
+    ]
+}
